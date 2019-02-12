@@ -108,6 +108,15 @@ function onKeyUp(){
 		document.getElementById("moon").style.display = "none";
 		document.getElementById("milkyWay").style.display = "none";
 	}
+	if(!a.includes("moon")){
+		document.getElementById("moon").style.display = "none";
+	}
+	if(!a.includes("milky")){
+		document.getElementById("milkyWay").style.display = "none";
+	}
+	if(!(a.includes("asteroid") || a.includes("belt"))){
+		document.getElementById("asteroidBelt").style.display = "none";
+	}
 }
 
 for(var i=1; i<=3; i++){
