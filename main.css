@@ -1,0 +1,75 @@
+@media screen and (max-width: 850px) {
+	#leftSection{
+		width:100px !important;
+	}
+	#middleSection{
+		width:70% !important;
+	}
+	body{
+		font-size: 0.7em !important;
+	}
+	img{
+		width: 250px !important;
+	}
+}
+#header,#leftSection,#footer{
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+div{
+	text-align: center;
+	font-family: calibri;
+	border-radius: 25px;
+	color: #fff;
+}
+#leftSection{
+	width:10%;
+	height:700px;
+	float:left;
+	margin-right:1.5%;
+}
+#middleSection{
+	float:left;
+	height:700px;
+	width:88.5%;
+	margin-bottom:1.5%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+#footer{
+	clear:both;
+}
+li{
+	text-align: left;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#clear,#search{
+   margin-top:1%;
+   border: 2px solid;
+   width: 60px;
+   height: 30px;
+   background-color: #0E1C4D ;
+   color: white;
+   font-size: 13px;
+   font-family: verdana, helvetica, arial, san-serif;
+   border-radius: 23px     0      23px           0;
+   outline-color: transparent;
+   box-shadow: 0px 1px 0px #0E1C4D ;
+   position: relative;
+   top: 0px;
+   transition: all ease 0.1s;
+}
+#clear:active,#search:active{
+   background:gray;
+   top:3px;
+   box-shadow: 0px 0px 0px #0E1C4D ;
+}
+input{
+	border-radius: 12px     0      12px           0; 
+	outline-color: transparent;
+}
