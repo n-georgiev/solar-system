@@ -107,6 +107,15 @@ $("input[type=text]").keyup(function(){
 		$("#moon").hide();
 		$("#milkyWay").hide();
 	}
+	if(!a.includes("moon")){
+		$("#moon").hide('fade');
+	}
+	if(!a.includes("milky")){
+		$("#milkyWay").hide('fade');
+	}
+	if(!(a.includes("asteroid") || a.includes("belt"))){
+		$("#asteroidBelt").hide('fade');
+	}
 });
 
 for(var i=1; i<=3; i++){
