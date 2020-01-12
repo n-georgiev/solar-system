@@ -1,5 +1,5 @@
 # solar-system
-neat looking website for space
+neat looking mobile-friendly website for space
 
 Information taken from the following websites:
 wikipedia.com; space.com; kids.nationalgeographic.com
